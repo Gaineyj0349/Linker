@@ -4,12 +4,11 @@ Lightweight android library for highlighting Strings inside of a textview (ignor
 
 JavaDocs: www.gainwisetech.com/javadocs/Linker
 
+********************************************
 
 To bring into your android project implement the artifact:
 
-********************************************
-
-    In the Project level build.gradle
+In the Project level build.gradle
 
 	allprojects {
 		repositories {
@@ -19,7 +18,7 @@ To bring into your android project implement the artifact:
 	}
 
 
-    In the App level build.gradle
+In the App level build.gradle
 
     dependencies {
 	        implementation 'com.github.Gaineyj0349:Linker:Tag'
