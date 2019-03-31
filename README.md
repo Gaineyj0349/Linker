@@ -5,6 +5,26 @@ Lightweight android library for highlighting Strings inside of a textview (ignor
 JavaDocs: www.gainwisetech.com/javadocs/Linker
 
 
+To bring into your android project implement the artifact:
+
+********************************************
+
+    In the Project level build.gradle
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+    In the App level build.gradle
+
+    dependencies {
+	        implementation 'com.github.Gaineyj0349:Linker:Tag'
+	}
+
 
 1 - Construct a Linker object with a textview:
 
