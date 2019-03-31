@@ -26,7 +26,7 @@ In the Project level build.gradle
 In the App level build.gradle
 
     dependencies {
-	        implementation 'com.github.Gaineyj0349:Linker:Tag'
+	        implementation 'com.github.Gaineyj0349:Linker:1.0'
 	}
 
 
