@@ -1,8 +1,10 @@
 package com.gainwise.linker;
 
+import android.support.annotation.NonNull;
+
 /**
  * Objects of this class will hold locations of a target string within a larger string.
- * Simple POJO class that supplements a member of the LinkOutfit class.
+ * Simple POJO class that supplements a member of the LinkProfile class.
  */
 public class SpanLocation {
     
@@ -22,7 +24,7 @@ public class SpanLocation {
      * @param startIndex The beginning index of the string's location.
      * @param endIndex The ending index of the target string's location.
      */
-    public SpanLocation(int startIndex, int endIndex) {
+    public SpanLocation(@NonNull int startIndex, @NonNull int endIndex) {
         this.startIndex = startIndex;
         this.endIndex = endIndex;
     }
