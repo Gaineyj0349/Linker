@@ -42,7 +42,7 @@ class Utils {
 
                 for(int j = 0; j< initialSpanSize; j++){
                     if((trackerIndex >= accumulatedSpans.get(j).getstartIndex()) &&
-                            (trackerIndex <= accumulatedSpans.get(j).getEndIndex())){
+                            (trackerIndex < accumulatedSpans.get(j).getEndIndex())){
                         //span already taken - flag and break
                         goodToAdd = false;
                         break;

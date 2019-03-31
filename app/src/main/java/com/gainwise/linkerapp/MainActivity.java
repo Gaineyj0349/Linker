@@ -27,9 +27,24 @@ public class MainActivity extends AppCompatActivity {
         list.add("hello");
         list.add("world");
 
+
+        ArrayList<LinkProfile> profiles = new ArrayList<>();
+        profiles.add(new LinkProfile("hello world",
+                Color.GREEN, false));
+        profiles.add(new LinkProfile("goodbye cruel world",
+                Color.RED, false));
+        profiles.add(new LinkProfile("Whoa awesome!",
+                Color.CYAN, true));
+
+
+        linker.addProfiles(profiles);
+
+
+        String[] words = new String[]{"One", "Two", "Three"};
+
         linker.addProfiles(new LinkProfile("helloworld",
                 Color.RED, false));
-
+        linker.addStrings(words);
         linker.addStrings(list);
         linker.setLinkColorForCharSequence("world", Color.MAGENTA);
         linker.setListener(new LinkerListener() {
