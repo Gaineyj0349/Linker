@@ -25,6 +25,11 @@ In the App level build.gradle
 	}
 
 
+
+********************************************
+********************************************
+How to use:
+
 1 - Construct a Linker object with a textview:
 
     Linker linker = new Linker(textView);
