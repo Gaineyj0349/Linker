@@ -113,4 +113,5 @@ If you need a fresh slate with same linker object just call
  ******************************************************************** 
  Note that the library will take care of subtleties like adding two of the same words, or same parts of a word. For example if "helloworld" and "hello" are two of the words added to the linker, "helloworld" will be given preference over "hello" when they are in the same span of characters. The linker will sort according to larger words first and trace all spans as it links them - avoiding the issue of duplication as well as intersecting spans.
      
- 
+************************************************************************
+Licensed under [MIT license](LICENSE) .
