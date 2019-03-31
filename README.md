@@ -65,9 +65,10 @@ How to use:
     
      
 ********************************************************************     
- You always have the option to add Strings to the linker object, just make sure you call the update method to refresh the spans.
+ You always have the option to add Strings to the linker object, just make sure you call the update method after to refresh the spans.
 
     linker.addStrings("yoda");
+    linker.update();
 
 ******************************************************************** 
 If you need a fresh slate with same linker object just call 
