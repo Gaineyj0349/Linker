@@ -1,10 +1,11 @@
 # Linker
 Lightweight android library for highlighting Strings inside of a textview (ignoring case), with optional callbacks.
 
-Java - MinSDK:17
-
 ![alt text](https://github.com/Gaineyj0349/Linker/blob/master/linker.png)
 
+Language: Java
+
+MinSDK: 17
 
 JavaDocs: www.gainwisetech.com/javadocs/Linker
 
