@@ -48,7 +48,7 @@ How to use:
         String[] words = new String[]{"One", "Two", "Three"};
         linker.addStrings(words);
         
-3 - Add a callback: (this is optional, and if you add a callback - the list of words must be added to the linker object first - see step 2):
+3 - Add a callback: (this is optional):
 
        linker.setListener(new LinkerListener() {
             @Override
@@ -60,7 +60,7 @@ How to use:
             }
         });
         
-4 - Call the linker's update method to commit and rollout the setup:
+4 - Call the linker's update method to commit customization and rollout the setup.:
     
      linker.update();
      
