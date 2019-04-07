@@ -37,7 +37,7 @@ How to use:
 
 1 - Construct a Linker object with a textview:
 
-    Linker linker = new Linker(textView);
+    	Linker linker = new Linker(textView);
     
 2 - Add an array or a list of strings to be highlighted within the textview's text:
     
@@ -65,15 +65,15 @@ How to use:
         
 4 - Call the linker's update method to commit customization and rollout the setup.:
     
-     linker.update();
+    	linker.update();
      
     
      
 ********************************************************************     
  You always have the option to add Strings to the linker object, just make sure you call the update method after to refresh the spans.
 
-    linker.addStrings("yoda");
-    linker.update();
+	    linker.addStrings("yoda");
+	    linker.update();
 
 ******************************************************************** 
 If you need a fresh slate with same linker object just call 
