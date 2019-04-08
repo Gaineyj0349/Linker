@@ -45,12 +45,12 @@ How to use:
         list.add("hello");
         list.add("world");
         linker.addStrings(list);
- ```    
-        AND/OR
- ```java
+```    
+AND/OR
+```java
         String[] words = new String[]{"One", "Two", "Three"};
         linker.addStrings(words);
- ```  
+```  
 3 - Add a callback: (this is optional):
 ```java
        linker.setListener(new LinkerListener() {
@@ -72,8 +72,8 @@ How to use:
  
  You always have the option to add Strings to the linker object, just make sure you call the update method after to refresh the spans.
 ```java
-	    linker.addStrings("yoda");
-	    linker.update();
+	linker.addStrings("yoda");
+	linker.update();
 ```
 
 If you need a fresh slate with same linker object just call 
@@ -86,7 +86,7 @@ If you need a fresh slate with same linker object just call
 
  1 - Customize all the link colors:
 ```java  
-     linker.setAllLinkColors(Color.BLUE);
+linker.setAllLinkColors(Color.BLUE);
 ```     
  2 - Customize link underlines:
 ```java 
