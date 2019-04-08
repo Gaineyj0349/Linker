@@ -25,7 +25,7 @@ In the Project level build.gradle
 
 In the App level build.gradle
 ```java
-    dependencies {
+       dependencies {
 	        implementation 'com.github.Gaineyj0349:Linker:1.0'
 	}
 ```
@@ -78,7 +78,7 @@ AND/OR
 
 If you need a fresh slate with same linker object just call 
 ```java
-    linker.clearLinksList()
+       linker.clearLinksList()
 ```  
 
 
@@ -86,11 +86,11 @@ If you need a fresh slate with same linker object just call
 
  1 - Customize all the link colors:
 ```java  
-linker.setAllLinkColors(Color.BLUE);
+      linker.setAllLinkColors(Color.BLUE);
 ```     
  2 - Customize link underlines:
 ```java 
-     linker.setAllLinkUnderline(false);
+      linker.setAllLinkUnderline(false);
 ```   
  3 - If you wish to customize a color or underline setting for a certain string (note the string must already be added to the linker):
 ```java
