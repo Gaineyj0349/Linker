@@ -1,6 +1,8 @@
 # Linker
 Lightweight android library for highlighting Strings inside of a textview (ignoring case), with optional callbacks.
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Linker-green.svg?style=flat )]( https://android-arsenal.com/details/1/7613 )
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Linker-green.svg?style=flat )]( 
+https://android-arsenal.com/details/1/7613 )
+[![](https://jitpack.io/v/gaineyj0349/Linker.svg)](https://jitpack.io/#gaineyj0349/Linker)
 ![alt text](https://github.com/Gaineyj0349/Linker/blob/master/linker.png)
 
 Language: Java
@@ -26,7 +28,7 @@ In the Project level build.gradle
 In the App level build.gradle
 ```java
        dependencies {
-	        implementation 'com.github.Gaineyj0349:Linker:1.0'
+	        implementation 'com.github.Gaineyj0349:Linker:1.1'
 	}
 ```
 
