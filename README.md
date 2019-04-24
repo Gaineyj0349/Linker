@@ -28,7 +28,7 @@ In the Project level build.gradle
 In the App level build.gradle
 ```java
        dependencies {
-	        implementation 'com.github.Gaineyj0349:Linker:1.1'
+	        implementation 'com.github.Gaineyj0349:Linker:1.2'
 	}
 ```
 
