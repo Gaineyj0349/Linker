@@ -25,7 +25,7 @@ class Utils {
         int lastIndex = 0;
 
         while (trackerIndex != -1 ) {
-            lastIndex = trackerIndex;
+            
             trackerIndex = textViewText.toLowerCase().indexOf(charSequence.toLowerCase(), trackerIndex);
             if (trackerIndex != -1 && lastIndex != trackerIndex) {
                 SpanLocation span = new SpanLocation(trackerIndex,trackerIndex + charSequence.length());
@@ -55,6 +55,8 @@ class Utils {
                     accumulatedSpans.add(span);
                 }
 
+                lastIndex = trackerIndex;
+                
                 //increase the trackerIndex so next indexOf call starts searching at the end of the
                 //last found word
                 trackerIndex +=  charSequence.length();
